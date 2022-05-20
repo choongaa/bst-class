@@ -18,3 +18,7 @@ Implemented Functions:
   - void rotate_right(Node* node);
       // Implement a right rotation about the node pointed to by node;
       // Update size and height of nodes;
+  - Node* find(T k);
+      // Return a pointer to the node that corresponds the key;
+  - Node* min();
+      // Return a pointer to the node holding the minimum key;

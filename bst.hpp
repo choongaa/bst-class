@@ -328,7 +328,7 @@ void BST<T>::erase(T k)
             delete node_to_remove;
             --size_;
         }
-        else
+        else if(node_to_remove == root_)
         {
             if(node_to_remove->right == replacement)
             {
